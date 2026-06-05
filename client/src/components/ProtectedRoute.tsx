@@ -3,7 +3,7 @@ import { Navigate } from "react-router-dom";
 const ProtectedRoute = ({
   children,
 }: {
-  children: JSX.Element;
+  children: React.ReactNode;
 }) => {
   const token = localStorage.getItem(
     "portfolioToken"
