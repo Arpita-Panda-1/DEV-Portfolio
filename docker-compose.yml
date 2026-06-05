@@ -1,12 +1,6 @@
 version: "3.9"
 
 services:
-  mongodb:
-    image: mongo
-    container_name: portfolio_mongodb
-    restart: always
-    ports:
-      - "27017:27017"
 
   backend:
     build: ./server
