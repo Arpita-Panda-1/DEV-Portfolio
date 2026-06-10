@@ -11,5 +11,5 @@ export interface ProjectType {
 
 export interface SkillType {
     name: string;
-    icon: JSX.Element;
+    icon: string;
 }
