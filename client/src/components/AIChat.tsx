@@ -48,7 +48,7 @@ const AIChat = () => {
             setLoading(true);
 
             const response = await axios.post(
-                `${API_URL}/api/ai`,
+                `${API_URL}/ai`,
                 {
                     message: currentInput,
                 }
